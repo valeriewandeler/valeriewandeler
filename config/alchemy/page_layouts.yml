@@ -1,0 +1,11 @@
+# == This file defines the page layouts for new pages.
+#
+# For further information please see https://guides.alchemy-cms.com/pages.html
+
+- name: index
+  unique: true
+  elements: [article]
+  autogenerate: [article]
+
+- name: standard
+  elements: [article]
